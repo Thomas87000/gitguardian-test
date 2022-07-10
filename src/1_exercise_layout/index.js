@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Flex, Grid, List, ListItem, Text } from '@chakra-ui/react'
+import { Flex, List, ListItem, Text } from '@chakra-ui/react'
 
 import { users } from '../data/users'
 import { Exercise } from '../components/Exercise'
