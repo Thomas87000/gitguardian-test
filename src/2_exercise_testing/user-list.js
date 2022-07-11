@@ -53,7 +53,7 @@ export const UserList = () => {
 						<form onSubmit={updateUser}>
 							<Stack p={2} spacing={3}>
 								<Input
-									defaultValue={users[selectedUserIndex].firstName}
+									defaultValue={user.firstName}
 									placeholder="First name"
 									size="sm"
 									w="300px"
@@ -61,7 +61,7 @@ export const UserList = () => {
 									aria-label="first name"
 								/>
 								<Input
-									defaultValue={users[selectedUserIndex].lastName}
+									defaultValue={user.lastName}
 									placeholder="Last name"
 									size="sm"
 									w="300px"
@@ -69,7 +69,7 @@ export const UserList = () => {
 									aria-label="last name"
 								/>
 								<Input
-									defaultValue={users[selectedUserIndex].login}
+									defaultValue={user.login}
 									placeholder="Login"
 									size="sm"
 									w="300px"
